@@ -1,0 +1,13 @@
+prefix=D:/ai_workforce_1/edafeature_rain/Library
+exec_prefix=D:/ai_workforce_1/edafeature_rain/Library
+libdir=D:/ai_workforce_1/edafeature_rain/Library/lib
+sharedlibdir=D:/ai_workforce_1/edafeature_rain/Library/lib
+includedir=D:/ai_workforce_1/edafeature_rain/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.3.1
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

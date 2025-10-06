@@ -23,7 +23,10 @@ It involves data cleaning, exploratory data analysis (EDA), feature engineering,
    - Create new features:
    - `WindRange = WindGustSpeed - WindSpeed9am`  
    - Difference between morning & afternoon wind directions
-   - Average of morning & afternoon (for finding whether the humidity,pressure,temperature increase or decrease) 
+   - Average of morning & afternoon (for finding whether the humidity,pressure,temperature increase or decrease)
+   labeling/Mapping
+    - RainToday -> Yes(1),No(0)
+    - RainTomorrow -> Yes(1),No(0)
    - Scale numerical features  
 
 5. **Prediction**
